@@ -9,7 +9,7 @@ var skillSchema = new Schema({
         type: String,
         required: true,
     },
-    candidate_driectives :{
+    candidate_directives :{
         type: String,
         required: true,
     },

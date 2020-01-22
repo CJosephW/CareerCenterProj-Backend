@@ -15,7 +15,7 @@ router.route('/skills')
         var myData = new Skill();
         myData.title = req.body.title;
         myData.evaluator_instructions = req.body.evaluator_instructions;
-        myData.cadidate_directives = req.body.cadidate_directives;
+        myData.candidate_directives = req.body.candidate_directives;
         myData.tasks = req.body.tasks;
         myData.save()
         .then(item =>{
